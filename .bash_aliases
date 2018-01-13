@@ -10,9 +10,9 @@ alias hi="sudo systemctl hibernate"
 alias gitcommit="git add .;git commit"
 alias gitamend="git add .;git commit --amend"
 
-mcd () { mkdir "$1"; cd "$1" ;}
+mc () { mkdir "$1"; cd "$1" ;}
 cl () { cd "$1"; ls -altr ;}
-csl () { cd ..; cd "$1" ; ls -altr ;}
+sl () { cd ..; cd "$1" ; ls -altr ;}
 
 
 alias zpl-stop="sudo ~/dev-tool/zeppelin-0.7.3-bin-all/bin/zeppelin-daemon.sh stop"
