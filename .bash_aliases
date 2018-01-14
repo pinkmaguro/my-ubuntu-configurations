@@ -1,6 +1,8 @@
 alias ll="ls -altr"
 alias ae="vi ~/wo/.bash_aliases"
 alias as="source ~/wo/.bash_aliases"
+
+alias ss="source ~/.bashrc; source ~/.bash_profile"
 alias ml="source ~/dev/env/ml/bin/activate"
 alias jn="jupyter notebook"
 alias aptupdate="sudo apt-get update"
